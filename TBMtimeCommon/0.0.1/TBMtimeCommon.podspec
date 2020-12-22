@@ -53,8 +53,8 @@ Pod::Spec.new do |spec|
   
 
   # 当前项目所依赖的第三方库 都需要对外暴露
-  #spec.dependency "Alamofire", "5.2.1"
-  #spec.dependency "Kingfisher", "5.14.0"
+  spec.dependency "TBMtimeBaseControll", "0.0.1"
+
 
 end
 
