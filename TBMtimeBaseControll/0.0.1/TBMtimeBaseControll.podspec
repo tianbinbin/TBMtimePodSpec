@@ -6,6 +6,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"								#spec对应的版本
   spec.swift_version = '4.0.0'
   spec.summary      = "基础控件合集，网络、导航栏、tabbar等"					#简介
+  spec.static_framework = true
 
   # description 详细的描述
   spec.description  = <<-DESC
