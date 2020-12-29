@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "git@github.com:tianbinbin/TBMtimeBaseControll.git", :tag => "#{spec.version}" }
 
   # 这个项目对外暴露的文件 .h .m 等 这个地方 有对应的信息啊 这个地方会有一些疑惑 所有路径下的所有文件
-  spec.source_files  = "TBMtimeBaseControll/**/*.swift"
+  spec.source_files  = "TBMtimeBaseControll/**/*.swift","TBMtimeBaseControll/R.generated.swift"
 
   # 排除对外引用的文件
   spec.exclude_files = "TBMtimeBaseControll/AppDelegate.swift","TBMtimeBaseControll/ViewController.swift","TBMtimeBaseControll/Exclude/ExcludeVC.swift"
