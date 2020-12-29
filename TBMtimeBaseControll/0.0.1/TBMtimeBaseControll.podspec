@@ -6,7 +6,6 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"								#spec对应的版本
   spec.swift_version = '4.0.0'
   spec.summary      = "基础控件合集，网络、导航栏、tabbar等"					#简介
-  spec.static_framework = true
 
   # description 详细的描述
   spec.description  = <<-DESC
@@ -31,7 +30,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "git@github.com:tianbinbin/TBMtimeBaseControll.git", :tag => "#{spec.version}" }
 
   # 这个项目对外暴露的文件 .h .m 等 这个地方 有对应的信息啊 这个地方会有一些疑惑 所有路径下的所有文件
-  spec.source_files  = "TBMtimeBaseControll/**/*.swift","TBMtimeBaseControll/R.generated.swift"
+  spec.source_files  = "TBMtimeBaseControll/**/*.swift"
 
   # 排除对外引用的文件
   spec.exclude_files = "TBMtimeBaseControll/AppDelegate.swift","TBMtimeBaseControll/ViewController.swift","TBMtimeBaseControll/Exclude/ExcludeVC.swift"
